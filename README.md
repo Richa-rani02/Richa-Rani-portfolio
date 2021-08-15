@@ -1,1 +1,1 @@
-This is my personal Portfolio which contains all my projects ,blogs ,my educational Qualification and work experiences
+Hey Welcome to My Portfolio. It contains all my projects ,blogs ,my educational Qualification and work experiences
