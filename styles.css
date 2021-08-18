@@ -1,14 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 :root {
     --primary-color: #1F2937;
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
+    --coral: #FF7F50;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin: 0px;
-    background-color: #FEF2F2;
+}
+
+.hr-theme-slash-2 {
+    display: flex;
+}
+
+.hr-line {
+    width: 100%;
+    margin: 10px;
+    border-bottom: 2px solid #000;
+    align-items: center;
+}
+
+.hr-icon {
+    top: 4px;
+    color: var(--coral);
+    font-size: 1.8rem;
 }
 
 
@@ -16,13 +33,13 @@ body {
 
 .navigation {
     background-color: var(--primary-color);
-    color: #ff3d64;
+    color: white;
     padding: 1rem;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: large;
+    font-size: x-large;
 }
 
 .navigation .nav-pills {
@@ -56,6 +73,7 @@ body {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    font-size: small;
 }
 
 .link-primary {
@@ -107,11 +125,11 @@ body {
 .hero .hero-heading {
     text-align: center;
     padding-top: 1rem;
-    color: var(--dark-gray);
+    color: var(--primary-color);
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
+    color: var(--coral);
 }
 
 
@@ -119,6 +137,10 @@ body {
 
 .section {
     padding: 2rem;
+}
+
+.section a {
+    text-align: center;
 }
 
 .section h1 {
@@ -137,7 +159,6 @@ body {
     padding: 4rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
 }
 
 .footer .link {
@@ -166,3 +187,25 @@ body {
 .showcase-blog {
     padding-bottom: 6rem;
 }
+
+.footer-icons {
+    margin-top: 40px;
+}
+
+.footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+/* F
