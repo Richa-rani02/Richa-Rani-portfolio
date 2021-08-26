@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 :root {
     --primary-color: #1F2937;
-    --secondary-color: #fcedf0;
+    --wheat-white: #E5E7EB;
     --off-white: #fcedf0;
     --dark-gray: #6B7280;
     --coral: #FF7F50;
@@ -18,13 +18,17 @@ body {
 
 .hr-line {
     width: 100%;
-    margin: 10px;
+    margin: 1px;
     border-bottom: 2px solid #000;
     align-items: center;
 }
 
+.hr-theme-slash-2 img {
+    width: 40px;
+    height: 40px;
+}
+
 .hr-icon {
-    top: 4px;
     color: var(--coral);
     font-size: 1.8rem;
 }
@@ -118,14 +122,13 @@ body {
 
 .hero .hero-img {
     max-width: 80%;
-    width: 350px;
+    width: 250px;
     display: block;
     margin: auto;
 }
 
 .hero .hero-heading {
     text-align: center;
-    padding-top: 1rem;
     color: var(--primary-color);
 }
 
@@ -138,6 +141,7 @@ body {
 
 .section {
     padding: 2rem;
+    background-color: var(--off-white);
 }
 
 .section a {
@@ -157,7 +161,7 @@ a:hover {
 }
 
 .ow {
-    background-color: var(--off-white);
+    background-color: white;
 }
 
 
@@ -188,6 +192,27 @@ a:hover {
 
 .showcase-list {
     padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 400px;
+}
+
+.showcase-list h1 {
+    font-weight: bold;
+    color: #FF7F50;
+    font-size: 30px;
+    text-shadow: 1px -1px black;
+    opacity: 1.0;
+}
+
+.showcase-list img {
+    width: 200px;
+    height: 200px;
+}
+
+.showcase-list p {
+    padding-bottom: 1rem;
 }
 
 
