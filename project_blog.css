@@ -149,6 +149,10 @@ body {
     margin: auto;
 }
 
+.section p {
+    font-size: large;
+}
+
 a:hover {
     cursor: pointer;
     background-color: #6B7280;
